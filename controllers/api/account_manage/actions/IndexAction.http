@@ -1,0 +1,7 @@
+GET {{host}}/v1/accounts/accounts-manage
+Accept: application/json
+Authorization: Bearer {{admin_token}}
+Client-Signature: {{client_signature}}
+Permanent-Language: {{permanent_language}}
+
+{}

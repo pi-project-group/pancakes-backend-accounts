@@ -1,0 +1,13 @@
+###
+POST {{host}}/v1/accounts/accounts-manage
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Client-Signature: {{client_signature}}
+Permanent-Language: {{permanent_language}}
+
+{
+  "email": "test@test.com",
+  "password": "123123123",
+  "password_repeat": "123123123"
+}

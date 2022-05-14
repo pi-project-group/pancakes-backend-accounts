@@ -1,0 +1,8 @@
+POST {{host}}/v1/accounts/email/resend-email-confirm-keys
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Client-Signature: {{client_signature}}
+Permanent-Language: {{permanent_language}}
+
+{}

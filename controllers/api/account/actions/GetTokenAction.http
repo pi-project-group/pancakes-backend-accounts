@@ -1,0 +1,10 @@
+POST {{host}}/v1/accounts/get-token
+Accept: application/json
+Content-Type: application/json
+Client-Signature: {{client_signature}}
+Permanent-Language: {{permanent_language}}
+
+{
+  "account": "admin",
+  "password": "admin"
+}
